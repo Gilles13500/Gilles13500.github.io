@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gilles Bellement - Directeur & Fondateur de Créatif-web | Développeur Full-Stack | Solutions web sur-mesure à Martigues">
+    <title>Gilles Bellement - Portfolio | Créatif-web</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gilles13500.github.io/">
+    <meta property="og:title" content="Gilles Bellement - Portfolio | Créatif-web">
+    <meta property="og:description" content="Directeur & Fondateur de Créatif-web | Développeur Full-Stack | Solutions web sur-mesure à Martigues">
+    <meta property="og:image" content="https://gilles13500.github.io/assets/images/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Gilles Bellement - Portfolio">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://gilles13500.github.io/">
+    <meta name="twitter:title" content="Gilles Bellement - Portfolio | Créatif-web">
+    <meta name="twitter:description" content="Directeur & Fondateur de Créatif-web | Développeur Full-Stack | Solutions web sur-mesure à Martigues">
+    <meta name="twitter:image" content="https://gilles13500.github.io/assets/images/logo.png">
+    <meta name="twitter:creator" content="@creatifweb">
+    
+    <!-- Additional Meta -->
+    <meta name="author" content="Gilles Bellement">
+    <meta name="keywords" content="développeur full-stack, web sur-mesure, React, Node.js, SaaS, VPS sécurisé, Martigues, Créatif-web">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">
+                    <img src="assets/images/logo.png" alt="Créatif-web Logo" class="nav-logo">
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="code-badge">
+                        <span class="code-symbol">&lt;</span>
+                        <span>code main</span>
+                        <span class="code-symbol">/&gt;</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="greeting">Bonjour, je suis</span>
+                        <span class="name">Gilles Bellement</span>
+                        <span class="role">Directeur | Fondateur Créatif-web | Développeur Full-Stack</span>
+                    </h1>
+                    <p class="hero-description">
+                        Passionné de code depuis toujours, je crée des solutions web sur-mesure 100% main. 
+                        Pas de CMS lourd et limité, seulement du code pur pour transformer chaque visiteur en client potentiel. 
+                        Basé à Martigues dans les Bouches-du-Rhône, je transforme vos idées en sites web performants et convertisseurs.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Voir mes projets</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar-wrapper">
+                        <div class="avatar-border"></div>
+                        <img src="assets/images/directeur.png" alt="Gilles Bellement" class="hero-avatar">
+                        <div class="code-lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span class="scroll-text">scroll</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">À propos de moi</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Fondateur de l'agence <strong>Créatif-web</strong> basée à Martigues, je suis un développeur full-stack 
+                        passionné par le code depuis toujours. Ma philosophie ? <strong>Du code sur-mesure 100% main</strong>, 
+                        sans CMS lourd et peu fiable qui limite la créativité.
+                    </p>
+                    <p>
+                        Chaque projet que je réalise est conçu avec un objectif clair : <strong>convertir chaque visiteur en client potentiel</strong>. 
+                        Avec 6 ans d'expérience, je maîtrise l'art de créer des sites web performants, élégants et optimisés pour la conversion. 
+                        Du front-end au back-end, je développe des solutions complètes qui allient esthétique moderne et fonctionnalités robustes.
+                    </p>
+                    <p>
+                        Spécialisé dans le développement sur-mesure, je privilégie la qualité, la performance et l'expérience utilisateur 
+                        plutôt que les solutions toutes faites. Chaque ligne de code est pensée pour maximiser l'impact et les résultats de mes clients.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Années d'expérience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Code sur-mesure</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Focus conversion</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Mes compétences</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-section">
+                    <h3 class="skill-section-title">Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <h3 class="skill-card-title">HTML5 / CSS3</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-level-text">95%</span>
+                            </div>
+                            <p class="skill-description">Maîtrise complète des standards web modernes</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚡</div>
+                            <h3 class="skill-card-title">JavaScript / TypeScript</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 92%"></div>
+                                </div>
+                                <span class="skill-level-text">92%</span>
+                            </div>
+                            <p class="skill-description">Développement frontend avancé et typé</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚛️</div>
+                            <h3 class="skill-card-title">React / Next.js</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-level-text">90%</span>
+                            </div>
+                            <p class="skill-description">Applications React performantes et SEO-friendly</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <h3 class="skill-card-title">Responsive & SEO</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-level-text">95%</span>
+                            </div>
+                            <p class="skill-description">Design adaptatif et optimisation référencement</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-divider"></div>
+
+                <div class="skill-section">
+                    <h3 class="skill-section-title">Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🚀</div>
+                            <h3 class="skill-card-title">Node.js / Express</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 92%"></div>
+                                </div>
+                                <span class="skill-level-text">92%</span>
+                            </div>
+                            <p class="skill-description">Backend JavaScript scalable et performant</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐘</div>
+                            <h3 class="skill-card-title">PHP</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 88%"></div>
+                                </div>
+                                <span class="skill-level-text">88%</span>
+                            </div>
+                            <p class="skill-description">Développement backend PHP moderne</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <h3 class="skill-card-title">PostgreSQL / MySQL</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 87%"></div>
+                                </div>
+                                <span class="skill-level-text">87%</span>
+                            </div>
+                            <p class="skill-description">Architecture et optimisation de bases de données</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🔌</div>
+                            <h3 class="skill-card-title">API REST / GraphQL</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-level-text">90%</span>
+                            </div>
+                            <p class="skill-description">APIs robustes et documentées</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-divider"></div>
+
+                <div class="skill-section">
+                    <h3 class="skill-section-title">Solutions & Infrastructure</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">💼</div>
+                            <h3 class="skill-card-title">SaaS sur-mesure</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 94%"></div>
+                                </div>
+                                <span class="skill-level-text">94%</span>
+                            </div>
+                            <p class="skill-description">Solutions SaaS complètes et évolutives</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🛒</div>
+                            <h3 class="skill-card-title">E-commerce React/Node</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 91%"></div>
+                                </div>
+                                <span class="skill-level-text">91%</span>
+                            </div>
+                            <p class="skill-description">Plateformes e-commerce performantes</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🔒</div>
+                            <h3 class="skill-card-title">VPS sécurisés</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 92%"></div>
+                                </div>
+                                <span class="skill-level-text">92%</span>
+                            </div>
+                            <p class="skill-description">Déploiement et sécurisation de serveurs</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🛡️</div>
+                            <h3 class="skill-card-title">Sécurité renforcée</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-level-text">90%</span>
+                            </div>
+                            <p class="skill-description">Protection avancée des applications</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-divider"></div>
+
+                <div class="skill-section">
+                    <h3 class="skill-section-title">Avancé</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">⚛️</div>
+                            <h3 class="skill-card-title">Algorithmes quantiques</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 88%"></div>
+                                </div>
+                                <span class="skill-level-text">88%</span>
+                            </div>
+                            <p class="skill-description">Sécurité par codage quantique</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📊</div>
+                            <h3 class="skill-card-title">Performance & Monitoring</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-level-text">90%</span>
+                            </div>
+                            <p class="skill-description">Optimisation et suivi en temps réel</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <h3 class="skill-card-title">DevOps & CI/CD</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 89%"></div>
+                                </div>
+                                <span class="skill-level-text">89%</span>
+                            </div>
+                            <p class="skill-description">Automatisation et déploiement continu</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🏗️</div>
+                            <h3 class="skill-card-title">Architecture Microservices</h3>
+                            <div class="skill-level">
+                                <div class="skill-level-bar">
+                                    <div class="skill-level-fill" style="width: 87%"></div>
+                                </div>
+                                <span class="skill-level-text">87%</span>
+                            </div>
+                            <p class="skill-description">Solutions scalables et modulaires</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Mes réalisations</h2>
+            </div>
+            <div class="projects-grid">
+                <a href="http://dev-net.eu" class="project-card" target="_blank" rel="noopener noreferrer">
+                    <div class="project-image-container">
+                        <img src="assets/images/logo1.png" alt="Dev-Net" class="project-image" loading="lazy">
+                        <div class="project-badge">Nouveau</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Dev-Net</h3>
+                    </div>
+                </a>
+
+                <a href="https://luxuria-club.com" class="project-card" target="_blank" rel="noopener noreferrer">
+                    <div class="project-image-container">
+                        <img src="assets/images/banner.png" alt="Luxuria Club" class="project-image" loading="lazy">
+                        <div class="project-badge premium">Premium</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Luxuria Club</h3>
+                    </div>
+                </a>
+
+                <a href="https://lebazardevaness.com" class="project-card" target="_blank" rel="noopener noreferrer">
+                    <div class="project-image-container">
+                        <img src="assets/images/logo2.jpg" alt="Le Bazar de Vaness" class="project-image" loading="lazy">
+                        <div class="project-badge">E-commerce</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Le Bazar de Vaness</h3>
+                    </div>
+                </a>
+
+                <a href="https://pepif-13.org" class="project-card" target="_blank" rel="noopener noreferrer">
+                    <div class="project-image-container">
+                        <img src="assets/images/pepif.png" alt="PEPIF-13" class="project-image" loading="lazy">
+                        <div class="project-badge">Institutionnel</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">PEPIF-13</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Section Descriptions des projets -->
+            <div class="projects-descriptions">
+                <div class="project-detail">
+                    <h3 class="project-detail-title">Dev-Net</h3>
+                    <p class="project-detail-text">Plateforme professionnelle dédiée aux acteurs du numérique. Réseau de mise en relation entre freelances, agences web et entreprises. Système d'abonnements avec gestion complète des profils, recherche avancée et messagerie intégrée. Développé en code sur-mesure pour maximiser les conversions et faciliter les connexions professionnelles.</p>
+                </div>
+                <div class="project-detail">
+                    <h3 class="project-detail-title">Luxuria Club</h3>
+                    <p class="project-detail-text">Plateforme de rencontres libertines pour adultes consentants. Site premium avec système d'abonnements, gestion de profils détaillés, messagerie privée et recherche avancée. Interface élégante et discrète, optimisée pour une expérience utilisateur fluide et sécurisée. Développé en code sur-mesure avec focus sur la confidentialité et la performance.</p>
+                </div>
+                <div class="project-detail">
+                    <h3 class="project-detail-title">Le Bazar de Vaness</h3>
+                    <p class="project-detail-text">Boutique e-commerce spécialisée dans les accessoires et décorations. Catalogue produits complet avec filtres avancés, panier optimisé et système de paiement sécurisé. Interface intuitive permettant une navigation fluide et une découverte facile des produits. Plateforme développée sur-mesure pour maximiser les ventes et l'engagement client.</p>
+                </div>
+                <div class="project-detail">
+                    <h3 class="project-detail-title">PEPIF-13</h3>
+                    <p class="project-detail-text">Plateforme web institutionnelle pour une association d'aide et de secours. Site informatif présentant les missions, actualités et moyens de soutenir l'organisation. Design accessible et responsive, optimisé pour tous les publics. Développé avec un focus particulier sur l'accessibilité et la performance pour garantir une expérience utilisateur optimale sur tous les appareils.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Contactez-moi</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Restons en contact</h3>
+                    <p>Vous avez un projet en tête ? N'hésitez pas à me contacter !</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>contact@creatifboost.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>06.10.56.25.06</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Martigues, Bouches-du-Rhône, France</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/bellement/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61577883355976" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/gilles_bellement" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gilles Bellement - Créatif-web. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
